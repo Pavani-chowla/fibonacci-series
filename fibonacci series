@@ -1,0 +1,12 @@
+list1=[]
+n=int(input())
+for i in range(0,n):
+    if i==0 or i==1:
+        list1.append(i)
+    else:
+        m=list1[i-1]+list1[i-2]
+        list1.append(m)
+print(list1)
+    
+        
+    
